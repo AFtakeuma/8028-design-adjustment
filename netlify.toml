@@ -1,0 +1,4 @@
+# 8028案件: 営業時間管理画面のデザイン調整用（静的 index.html）
+[build]
+  publish = "."
+  command = "echo 'static'"
