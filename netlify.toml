@@ -1,0 +1,9 @@
+# 8028 営業時間管理 — 静的デザイン（ビルドなし）
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Content-Security-Policy = "frame-ancestors 'self' https://8028private.com https://*.8028private.com http://localhost:*;"
